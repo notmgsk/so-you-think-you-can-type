@@ -7,7 +7,10 @@ let poem = "The moving finger writes; and, having writ, moves on.";
 function spanify(str) {
   return (
     <span>
-      {str.split("").map((c) => <span className="thing">{c}</span>)}
+      {str.split("").map((c, i) => <span
+                                    id={"letter-" + i}
+                                    key={"letter-" + i}
+                                    className="thing">{c}</span>)}
     </span>
   );
 }

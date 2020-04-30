@@ -21,6 +21,14 @@ class Phrase extends React.Component {
 }
 
 class Keyboard extends React.Component {
+  componentDidMount() {
+    document.addEventListener("keydown", this.handleKey, false);
+  }
+  
+  handleKey(e) {
+    // TODO Do something.
+  }
+  
   render() {
     return (
       <div className="keyboard">

@@ -1,17 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+let poem = "The moving finger writes; and, having writ, moves on.";
+
+function spanify(str) {
+  return (
+    <span>
+      {str.split("").map((c) => <span className="thing">{c}</span>)}
+    </span>
+  );
+}
+
+class Phrase extends React.Component {
+  render() {
+    return (
+      <p>{spanify(poem)}</p>
+    );
+  }
+}
+
+class Keyboard extends React.Component {
+  render() {
+    return (
+      <div className="keyboard">
+        <div className="poem">
+          <Phrase />
+        </div>
+      </div>
+    );
+  }
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Keyboard />,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "487857aa4a6edde2b77fec96e94a559a",
+    "revision": "29b038e0dfa65378d9de16e72f013a71",
     "url": "/so-you-think-you-can-type/index.html"
   },
   {
-    "revision": "f66546f97a16a8d66ef3",
+    "revision": "066cb03cfd0f1e799c04",
     "url": "/so-you-think-you-can-type/static/css/main.991a42ed.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f66546f97a16a8d66ef3",
-    "url": "/so-you-think-you-can-type/static/js/main.cb92335a.chunk.js"
+    "revision": "066cb03cfd0f1e799c04",
+    "url": "/so-you-think-you-can-type/static/js/main.e69e5afb.chunk.js"
   },
   {
     "revision": "29579e30988cc8885895",

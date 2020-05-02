@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/so-you-think-you-can-type/static/css/main.991a42ed.chunk.css",
-    "main.js": "/so-you-think-you-can-type/static/js/main.cb92335a.chunk.js",
-    "main.js.map": "/so-you-think-you-can-type/static/js/main.cb92335a.chunk.js.map",
+    "main.js": "/so-you-think-you-can-type/static/js/main.e69e5afb.chunk.js",
+    "main.js.map": "/so-you-think-you-can-type/static/js/main.e69e5afb.chunk.js.map",
     "runtime-main.js": "/so-you-think-you-can-type/static/js/runtime-main.b3c1ce9b.js",
     "runtime-main.js.map": "/so-you-think-you-can-type/static/js/runtime-main.b3c1ce9b.js.map",
     "static/js/2.de04369f.chunk.js": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js",
     "static/js/2.de04369f.chunk.js.map": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.map",
     "index.html": "/so-you-think-you-can-type/index.html",
-    "precache-manifest.4efc7f32110cd5f3570cb9d7e657f722.js": "/so-you-think-you-can-type/precache-manifest.4efc7f32110cd5f3570cb9d7e657f722.js",
+    "precache-manifest.7f1ab89d4460445a551deae84405adb5.js": "/so-you-think-you-can-type/precache-manifest.7f1ab89d4460445a551deae84405adb5.js",
     "service-worker.js": "/so-you-think-you-can-type/service-worker.js",
     "static/css/main.991a42ed.chunk.css.map": "/so-you-think-you-can-type/static/css/main.991a42ed.chunk.css.map",
     "static/js/2.de04369f.chunk.js.LICENSE.txt": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b3c1ce9b.js",
     "static/js/2.de04369f.chunk.js",
     "static/css/main.991a42ed.chunk.css",
-    "static/js/main.cb92335a.chunk.js"
+    "static/js/main.e69e5afb.chunk.js"
   ]
 }

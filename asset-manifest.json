@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/so-you-think-you-can-type/static/css/main.b8d2b5e5.chunk.css",
+    "main.css": "/so-you-think-you-can-type/static/css/main.e92a8f42.chunk.css",
     "main.js": "/so-you-think-you-can-type/static/js/main.5698aea8.chunk.js",
     "main.js.map": "/so-you-think-you-can-type/static/js/main.5698aea8.chunk.js.map",
     "runtime-main.js": "/so-you-think-you-can-type/static/js/runtime-main.b3c1ce9b.js",
@@ -8,15 +8,15 @@
     "static/js/2.de04369f.chunk.js": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js",
     "static/js/2.de04369f.chunk.js.map": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.map",
     "index.html": "/so-you-think-you-can-type/index.html",
-    "precache-manifest.d68de13e01a139266289473b10edaa21.js": "/so-you-think-you-can-type/precache-manifest.d68de13e01a139266289473b10edaa21.js",
+    "precache-manifest.0a5dee8530c7b5fcece4cfa2d5d3799a.js": "/so-you-think-you-can-type/precache-manifest.0a5dee8530c7b5fcece4cfa2d5d3799a.js",
     "service-worker.js": "/so-you-think-you-can-type/service-worker.js",
-    "static/css/main.b8d2b5e5.chunk.css.map": "/so-you-think-you-can-type/static/css/main.b8d2b5e5.chunk.css.map",
+    "static/css/main.e92a8f42.chunk.css.map": "/so-you-think-you-can-type/static/css/main.e92a8f42.chunk.css.map",
     "static/js/2.de04369f.chunk.js.LICENSE.txt": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b3c1ce9b.js",
     "static/js/2.de04369f.chunk.js",
-    "static/css/main.b8d2b5e5.chunk.css",
+    "static/css/main.e92a8f42.chunk.css",
     "static/js/main.5698aea8.chunk.js"
   ]
 }

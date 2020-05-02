@@ -13,9 +13,12 @@ p {
 .active-letter-good {
     color: green;
     /* font-weight: bold; */
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 3px solid green;
 }
 
 .active-letter-bad {
     color: red;
+    text-decoration: none;
+    border-bottom: 3px solid red;
 }

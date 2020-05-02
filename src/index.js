@@ -60,7 +60,6 @@ class Main extends React.Component {
   }
 
   handleKey(e) {
-    console.log(e);
     if ((e.keyCode >= 32 && e.keyCode <= 223 && !e.altKey && !e.ctrlKey && !e.metaKey)
         || e.keyCode == 8) {
       // Prevent keys like backspace affecting the page. Controversial,
@@ -75,14 +74,13 @@ class Main extends React.Component {
     }
 
     var newstate;
-    console.log(this.state.cursor, this.state.str[this.state.cursor], e.keyCode);
-    
+
     if (this.state.str[this.state.cursor] == e.key) {
       newstate = {cursor: (this.state.cursor + 1) % this.state.str.length,
                   cursorStyle: goodLetterStyle};
     }
     else {
-      newstate = {cursor: this.state.cursor, cursorStyle: badLetterStyle};  
+      newstate = {cursor: this.state.cursor, cursorStyle: badLetterStyle};
     }
     this.setState(newstate);
   }

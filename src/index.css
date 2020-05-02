@@ -29,14 +29,15 @@ body {
 }
 
 .active-letter-good {
-    color: green;
+    color: black;
+    background-color: rgba(0, 255, 0, 0.3);
     /* font-weight: bold; */
     text-decoration: none;
     border-bottom: 3px solid green;
 }
 
 .active-letter-bad {
-    color: red;
+    background-color: rgba(255, 0, 0, 0.3);
     text-decoration: none;
     border-bottom: 3px solid red;
 }

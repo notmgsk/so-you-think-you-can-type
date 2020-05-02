@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cd3d7bf85ebfcdd19b329dccbc75ef6",
+    "revision": "487857aa4a6edde2b77fec96e94a559a",
     "url": "/so-you-think-you-can-type/index.html"
   },
   {
-    "revision": "c0ced89ef9c2c284fc3d",
-    "url": "/so-you-think-you-can-type/static/css/main.356c6cf4.chunk.css"
+    "revision": "f66546f97a16a8d66ef3",
+    "url": "/so-you-think-you-can-type/static/css/main.991a42ed.chunk.css"
   },
   {
     "revision": "be852f13ddcfb4529bf2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/so-you-think-you-can-type/static/js/2.de04369f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0ced89ef9c2c284fc3d",
-    "url": "/so-you-think-you-can-type/static/js/main.58775a26.chunk.js"
+    "revision": "f66546f97a16a8d66ef3",
+    "url": "/so-you-think-you-can-type/static/js/main.cb92335a.chunk.js"
   },
   {
     "revision": "29579e30988cc8885895",

@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-let poem = "The moving finger writes; and, having writ, moves on.";
+//let poem = "The moving finger writes; and, having writ, moves on.";
+let poem = "The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it's my very good honor to meet you and you may call me V.";
 
 let goodLetterStyle = "active-letter-good",
     badLetterStyle  = "active-letter-bad";

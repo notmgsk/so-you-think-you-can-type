@@ -21,7 +21,7 @@ body {
  * (and thus its styling) is hidden.
  */
 .poem p span {
-    whitespace: pre-wrap;
+    white-space: break-spaces;
 }
 
 .inactive-letter {

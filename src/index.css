@@ -9,11 +9,11 @@ body {
     min-height: 200px;
 }
 
-.poem {
+.quote {
     width: 60%;
 }
 
-.poem p {
+.quote p {
     font-size: 24px;
     line-height: 1.3em;
 }
@@ -27,7 +27,7 @@ body {
  * space, they will have no visual indication of it because the space
  * (and thus its styling) is hidden.
  */
-.poem p span {
+.quote p span {
     white-space: break-spaces;
 }
 

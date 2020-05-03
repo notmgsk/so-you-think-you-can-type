@@ -23,6 +23,10 @@ let goodLetterStyle = "active-letter-good",
     badLetterStyle  = "active-letter-bad";
 
 class Letter extends React.Component {
+  componentShouldUpdate(nextProps, nextState) {
+    return this.props.i == this.nextProps.cursor;
+  }
+  
   render() {
     let i = this.props.i,
         c = this.props.c,

@@ -30,7 +30,7 @@ class Phrase extends React.Component {
       <span>
         {this.props.str.split("")
          .map((c, i) => <Letter key={i} i={i} c={c} cursor={this.props.cursor}
-                               cursorStyle={this.props.cursorStyle}/>)}
+                                cursorStyle={this.props.cursorStyle}/>)}
       </span>
     );
   }

@@ -2,12 +2,19 @@ body {
     margin: 50px;
 }
 
+.main {
+    display: flex;
+    justify-contents: center;
+    align-items: center;
+    min-height: 200px;
+}
+
 .poem {
-    width: 70%;
+    width: 60%;
 }
 
 .poem p {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 1.3em;
 }
 
@@ -40,4 +47,15 @@ body {
     background-color: rgba(255, 0, 0, 0.3);
     text-decoration: none;
     border-bottom: 3px solid red;
+}
+
+.info {
+    flex-grow: 1;
+    width: 40%;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 50px;
+    color: #606060;
 }

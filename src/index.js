@@ -5,6 +5,7 @@ import './index.css';
 //let poem = "The moving finger writes; and, having writ, moves on.";
 let poem = "The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it's my very good honor to meet you and you may call me V.";
 
+
 let goodLetterStyle = "active-letter-good",
     badLetterStyle  = "active-letter-bad";
 
@@ -42,6 +43,21 @@ class Phrase extends React.Component {
   }
 }
 
+class WPM extends React.Component {
+  countWords(str) {
+    return poem.split(" ").length;
+  }
+
+  render() {
+    let wpm =
+        Number.parseFloat(this.countWords(this.props.str)/(this.props.clock / 60) * 1000)
+        .toFixed();
+    return (
+      <h1>WPM {wpm}</h1>
+    );
+  }
+}
+
 class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -51,6 +67,9 @@ class Main extends React.Component {
       cursorStyle: goodLetterStyle,
       str: poem
     };
+
+    this.clock = null;
+    this.finished = null;
 
     this.handleKey = this.handleKey.bind(this);
   }
@@ -73,6 +92,14 @@ class Main extends React.Component {
       return;
     }
 
+    if (this.finished) {
+      return;
+    }
+
+    if (!this.clock) {
+      this.clock = new Date();
+    }
+
     var newstate;
 
     if (this.state.str[this.state.cursor] == e.key) {
@@ -82,6 +109,13 @@ class Main extends React.Component {
     else {
       newstate = {cursor: this.state.cursor, cursorStyle: badLetterStyle};
     }
+
+    if (this.state.cursor == (this.state.str.length - 1) && newstate["cursorStyle"] == goodLetterStyle) {
+      this.finished = true;
+      this.clock = (new Date()).getTime() - this.clock.getTime();
+      console.log(this.clock);
+    }
+    
     this.setState(newstate);
   }
 
@@ -92,6 +126,9 @@ class Main extends React.Component {
           <Phrase str={this.state.str}
                   cursor={this.state.cursor}
                   cursorStyle={this.state.cursorStyle} />
+        </div>
+        <div className="info">
+          {this.finished && <WPM string={this.state.str} cursor={this.cursor} clock={this.clock} />}
         </div>
       </div>
     );

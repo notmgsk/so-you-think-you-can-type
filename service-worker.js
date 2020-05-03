@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/so-you-think-you-can-type/precache-manifest.2430be0bf79bbedc12f2ca5253f0ee3c.js"
+  "/so-you-think-you-can-type/precache-manifest.cc6c53ad5faa4b60a0ae68eaf34663d5.js"
 );
 
 self.addEventListener('message', (event) => {
